@@ -25,7 +25,7 @@
     
     <property name="msiextract.path" value="${bundle.srcdest}/extract"/>
     <extractmsi file="${bundle.srcdest}/${bundle.srcfilename}" dest="${msiextract.path}"/>
-    <property name="bundle.srcfinal" value="${msiextract.path}/Yarn"/>
+    <property name="bundle.srcfinal" value="${msiextract.path}/SourceDir/Yarn"/>
     <assertfile file="${bundle.srcfinal}/bin/yarn.js"/>
     
     <!-- Temp copy -->
@@ -45,9 +45,9 @@
             <property name="nodejs.path" value="${bundle.srcdest}/nodejs"/>
             <download url="${yarn.nodejs}" returnProperty="nodejs.dest"/>
             <extractmsi file="${nodejs.dest}" dest="${nodejs.path}"/>
-            <assertfile file="${nodejs.path}/nodejs/node.exe"/>
+            <assertfile file="${nodejs.path}/SourceDir/nodejs/node.exe"/>
             <copy todir="${bundle.srcfinal}/nodejs" overwrite="true">
-              <fileset dir="${nodejs.path}/nodejs"/>
+              <fileset dir="${nodejs.path}/SourceDir/nodejs"/>
             </copy>
           </then>
         </if>
