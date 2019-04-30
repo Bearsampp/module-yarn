@@ -1,5 +1,9 @@
 # Changelog
 
+## r5 (2019/04/30)
+
+* New release : 1.15.2 (Issue neard/neard#408)
+
 ## r4 (2018/12/16)
 
 * New release : 1.12.3 (Issue neard/neard#400)
