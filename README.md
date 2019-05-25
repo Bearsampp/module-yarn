@@ -5,7 +5,7 @@ This is a module of [Neard project](https://github.com/neard/neard) involving Ya
 
 ## Documentation and downloads
 
-http://neard.io/modules/yarn
+https://neard.io/modules/yarn
 
 ## Issues
 
