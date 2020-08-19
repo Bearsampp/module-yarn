@@ -1,5 +1,9 @@
 # Changelog
 
+## r7 (2020/08/19)
+
+* Yarn 1.22.4 (neard/neard#465)
+
 ## r6 (2019/12/14)
 
 * Yarn 1.21.1 (neard/neard#437)
