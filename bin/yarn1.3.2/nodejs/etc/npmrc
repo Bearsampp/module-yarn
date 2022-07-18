@@ -1,5 +1,0 @@
-cache = ~NEARD_WIN_PATH~\tmp\npm-cache
-globalconfig = ~NEARD_WIN_PATH~\tools\yarn\yarn1.3.2\nodejs\etc\npmrc
-globalignorefile = ~NEARD_WIN_PATH~\tools\yarn\yarn1.3.2\nodejs\etc\.npmignore
-init-module = ~NEARD_WIN_PATH~\tools\yarn\yarn1.3.2\nodejs\etc\.npm-init.js
-userconfig = ~NEARD_WIN_PATH~\tools\yarn\yarn1.3.2\nodejs\etc\npmrc
