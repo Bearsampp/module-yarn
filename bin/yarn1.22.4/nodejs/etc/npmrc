@@ -1,5 +1,0 @@
-cache = ~BEARSAMPP_WIN_PATH~\tmp\npm-cache
-globalconfig = ~BEARSAMPP_WIN_PATH~\tools\yarn\yarn1.22.4\nodejs\etc\npmrc
-globalignorefile = ~BEARSAMPP_WIN_PATH~\tools\yarn\yarn1.22.4\nodejs\etc\.npmignore
-init-module = ~BEARSAMPP_WIN_PATH~\tools\yarn\yarn1.22.4\nodejs\etc\.npm-init.js
-userconfig = ~BEARSAMPP_WIN_PATH~\tools\yarn\yarn1.22.4\nodejs\etc\npmrc
